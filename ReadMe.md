@@ -9,6 +9,7 @@ I'll try my best to make it nice and clean.
 ## Index
 
 1. [CAT16 Reversibility](https://jackchou.top/posts/cat16-reversibility): About one- or two-step CAT16's reversibility.
+2. [JPEG Structure](https://jackchou.top/posts/jpeg-structure): About JPEG/JFIF file structure and MPF (Multi-Picture Format).
 
 ## Usage
 
