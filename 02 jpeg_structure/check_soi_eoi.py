@@ -2,7 +2,7 @@
 # Not robust, only for demonstration.
 
 import os
-from typing import List, Tuple, Dict, Any
+from typing import List
 
 # Define JPEG/JFIF markers
 SOI_MARKER = b"\xff\xd8"
@@ -116,7 +116,7 @@ def extract_jpeg_streams(file_path: str):
     for stream in identified_streams:
         print(
             f"Role: {stream['role']:<16} | "
-            f"Size: {stream['size_bytes']/1024:7.2f} KB | "
+            f"Size: {stream['size_bytes'] / 1024:7.2f} KB | "
             f"Offset: {stream['start_offset']} -> {stream['end_offset']}"
         )
 

@@ -6,7 +6,6 @@ Use sample_app2 from adobe's sample gallery as example.
 Reference: ISO 21496-1 <https://www.iso.org/standard/86775.html>
 """
 
-
 import struct
 import json
 import re

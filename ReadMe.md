@@ -2,15 +2,16 @@
 
 ## About
 
-Here is the repo for code and examples used in [JacksBlog](https://jackchou.top/), mainly about colour science and image processing.
+Here is the repo for code and examples used in [JacksBlog](https://jackchou00.com/), mainly about colour science and image processing.
 
 I'll try my best to make it nice and clean.
 
 ## Index
 
-1. [CAT16 Reversibility](https://jackchou.top/posts/cat16-reversibility): About one- or two-step CAT16's reversibility.
-2. [JPEG Structure](https://jackchou.top/posts/jpeg-structure): About JPEG/JFIF file structure and MPF (Multi-Picture Format).
-3. [ISO 21496-1 Parser](https://jackchou.top/posts/iso-21496-1-gainmap-hdr): About parsing an ISO 21496-1 gainmap metadata in APP2.
+1. [CAT16 Reversibility](https://jackchou00.com/posts/cat16-reversibility): About one- or two-step CAT16's reversibility.
+2. [JPEG Structure](https://jackchou00.com/posts/jpeg-structure): About JPEG/JFIF file structure and MPF (Multi-Picture Format).
+3. [ISO 21496-1 Parser](https://jackchou00.com/posts/iso-21496-1-gainmap-hdr): About parsing an ISO 21496-1 gainmap metadata in APP2.
+4. [Extract ICC Profile](https://jackchou00.com/posts/extract-icc-from-file): About how to extract ICC profiles from any file.
 
 ## Usage
 

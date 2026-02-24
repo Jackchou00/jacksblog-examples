@@ -214,8 +214,7 @@ if __name__ == "__main__":
         f"{intermediates['Rw,δ']:.4f}, {intermediates['Gw,δ']:.4f}, {intermediates['Bw,δ']:.4f}"
     )
     print(
-        f"{'':<15} {'Dβ, Dδ':<20} "
-        f"{intermediates['Dβ']:.4f}, {intermediates['Dδ']:.4f}"
+        f"{'':<15} {'Dβ, Dδ':<20} {intermediates['Dβ']:.4f}, {intermediates['Dδ']:.4f}"
     )
     print(
         f"{'':<15} {'DR,β, DG,β, DB,β':<20} "
@@ -246,4 +245,4 @@ if __name__ == "__main__":
     print(
         f"Calculated Output: Xc,δ={Xc_d_out:.4f}, Yc,δ={Yc_d_out:.4f}, Zc,δ={Zc_d_out:.4f}"
     )
-    print(f"Table 5   Output: Xc,δ=40.3743, Yc,δ=43.6943, Zc,δ=20.5167")
+    print("Table 5   Output: Xc,δ=40.3743, Yc,δ=43.6943, Zc,δ=20.5167")

@@ -12,9 +12,7 @@ class JPEGParser:
         self.markers = OrderedDict()
         self.image_width = 0
         self.image_height = 0
-        self.xmp_data_list = (
-            []
-        )  # Store multiple XMP data, each with data and offset info
+        self.xmp_data_list = []  # Store multiple XMP data, each with data and offset info
 
         # Standard JPEG marker definitions
         self.MARKERS = {
@@ -250,7 +248,7 @@ class JPEGParser:
             print(f"\nFound {len(self.xmp_data_list)} XMP metadata segment(s):")
             for i, xmp_info in enumerate(self.xmp_data_list):
                 print(
-                    f"  XMP #{i+1}: Offset 0x{xmp_info['offset']:06X}, Size {len(xmp_info['data'])} bytes"
+                    f"  XMP #{i + 1}: Offset 0x{xmp_info['offset']:06X}, Size {len(xmp_info['data'])} bytes"
                 )
 
         print("\nJPEG Segment Analysis:")

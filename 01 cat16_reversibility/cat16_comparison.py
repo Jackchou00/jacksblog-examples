@@ -102,7 +102,7 @@ inverse_one_step = compute_cat16_one_step_matrix(
     Illuminant_A, Illuminant_D65, ADAPTATION_DEGREE
 )
 xyz_adapted = forward_one_step @ xyz_input
-print(f"Adapted XYZ (one step):", xyz_adapted)
+print("Adapted XYZ (one step):", xyz_adapted)
 xyz_recovered = inverse_one_step @ xyz_adapted
 print("One step recovered XYZ:", xyz_recovered)
 print(f"Matches input: {np.allclose(xyz_input, xyz_recovered)}")
@@ -115,7 +115,7 @@ inverse_two_step = compute_cat16_two_step_matrix(
     Illuminant_A, Illuminant_D65, ADAPTATION_DEGREE
 )
 xyz_adapted2 = forward_two_step @ xyz_input
-print(f"Adapted XYZ (two step):", xyz_adapted2)
+print("Adapted XYZ (two step):", xyz_adapted2)
 xyz_recovered2 = inverse_two_step @ xyz_adapted2
 print("Two step recovered XYZ:", xyz_recovered2)
 print(f"Matches input: {np.allclose(xyz_input, xyz_recovered2)}")
